@@ -19,8 +19,8 @@ public class Gpt3ApiClient {
         try {
             requestBodyJson.put("model", "davinci");//Change GPT3 Model
             requestBodyJson.put("prompt", prompt);
-            requestBodyJson.put("temperature", 0.5);//Change randomness 0.0-1.0
-            requestBodyJson.put("max_tokens", 200);//Change length
+            requestBodyJson.put("temperature", 0.6);//Change randomness 0.0-1.0
+            requestBodyJson.put("max_tokens", 100);//Change length
         } catch (JSONException e) {
             e.printStackTrace();
             Log.e("GPT3 Error", "Failed to create request JSON");

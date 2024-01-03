@@ -29,7 +29,7 @@ public class ScoreScreen extends AppCompatActivity {
             sum += QuestionsScreen.sumScoresList.get(i);
         }
 
-        labelScore.setText("Your HackScore:"+"\n"+(int)sum+"/850");
+        labelScore.setText("Your HackScore:"+"\n\n"+(int)sum+"/850");
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override

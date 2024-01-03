@@ -39,7 +39,7 @@ public class ChatBotScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String prompt = String.valueOf(inputChat.getText());
-                new Gpt3Task().execute("Answer with 5 sentences: "+prompt);
+                new Gpt3Task().execute(prompt);
             }
         });
 
