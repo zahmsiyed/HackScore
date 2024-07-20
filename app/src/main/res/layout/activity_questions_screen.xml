@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsScreen"
+    android:background="#D0D0D0"
+    >
+
+    <TextView
+        android:id="@+id/label_questions"
+        android:layout_width="377dp"
+        android:layout_height="165dp"
+        android:text="Question here"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/label_questions_tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 0 of 25:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+
+        android:id="@+id/button_option1"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="option 1 here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+
+        android:id="@+id/button_option3"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="option 3 here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <Button
+
+        android:id="@+id/button_option4"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="option 4 here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <Button
+
+        android:id="@+id/button_option2"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="option 2 here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/button_restart"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:text="Restart"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <Button
+        android:id="@+id/button_back_questions"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
