@@ -10,7 +10,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class ChatGPTClient {
-    private static final String API_KEY = "sk-proj-QSzgPPCjLmS3G4XQCgllT3BlbkFJQhbhtwpfmeeKRbHBdvkE";
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
 
     private OkHttpClient client;
@@ -29,7 +28,7 @@ public class ChatGPTClient {
         Request request = new Request.Builder()
                 .url(API_URL)
                 .post(body)
-                .addHeader("Authorization", "Bearer " + API_KEY)
+                .addHeader("Authorization", "Bearer " + APIKey.getAPIKey())
                 .addHeader("Content-Type", "application/json")
                 .build();
 
