@@ -1,6 +1,6 @@
 # HackScore App
 
-HackScore is a cybersecurity assessment app designed to determine the user's digital safety and remediate potential vulnerabilities by allowing the user to receive cybersecurity advice from a generative Artificial Intelligence powered by Open AI's GPT-3 API.
+HackScore is a cybersecurity assessment app designed to determine the user's digital safety and remediate potential vulnerabilities by allowing the user to receive cybersecurity advice from a generative Artificial Intelligence powered by Open AI's GPT-3.5 API.
 
 A video demonstration of HackScore's user interface can be found in the repository files as well as below:
 https://drive.google.com/file/d/1UW_6niiNIWizUAo85PrJ62hH7ddFxYFK/view?usp=share_link
